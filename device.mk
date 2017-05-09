@@ -150,6 +150,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Gello
 
+# Doze mode
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 # GPS
 PRODUCT_PACKAGES += \
     flp.conf \
