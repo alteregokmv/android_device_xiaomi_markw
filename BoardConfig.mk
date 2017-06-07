@@ -94,9 +94,7 @@ BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
 # CMHW
 BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS += \
-    hardware/cyanogen/cmhw \
-    device/xiaomi/markw/cmhw
+BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
 
 # CNE / DPM
 BOARD_USES_QCNE := true
